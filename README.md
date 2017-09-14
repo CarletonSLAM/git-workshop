@@ -1,9 +1,14 @@
-# Git
+# Git Workshop
+
+---
+
+#Agenda
 
 1. [Why use Git](#why-use-git)
 1. [What is Git](#what-is-git)
 1. [How does Git Work](#how-git-works)
 1. [Recap](#recap)
+1. [Installing Git](#installing-git)
 
 ---
 
@@ -68,3 +73,107 @@ Version control systems allow groups of people to edit the same files and have a
 # Recap
 
 ![recap](https://raw.github.com/CarletonSLAM/git-workshop/master/.github/recap_git_diagram.png)
+
+---
+
+# Installing Git
+
+1. Visit https://git-scm.com/downloads and select the proper installation link based on your operating system (Windows, Mac Os, Linux)
+![alt text][git-site]
+
+---
+
+# Installing Git
+
+3. Install the software.
+    * If you are on Windows or Mac, run the downloaded installer with default options.
+
+    ![alt text][git-install]
+
+    * If you are running Linux, you can install git by entering in the commands on the page in the terminal i.e. for Debian/Ubuntu:
+    ```apt-get install git```    
+
+---
+
+# Installing Git
+
+4. Once the installation is complete, you can check that git installed by running ```git --version``` on your terminal
+
+    * On Windows, the Git Bash terminal is also installed with git so you can use this to run most of your commands from now on.
+
+    * The result should look similar to the one below.
+    ```
+    $ git --version
+    git version 2.12.0.windows.1
+    ```
+
+---
+
+# Creating an account on Github
+
+1. Visit https://github.com/ and click on the "Sign up for Github" Button.
+
+![alt text][github-singup]
+
+2. Tell us the email you signed up as so that we can add you to the repository where we have an activity.
+
+---
+
+#Git Activity
+
+Adding your own contributions to our workshop webpage
+
+---
+
+# Git Activity
+### View Repository
+
+1. Visit https://github.com/CarletonSLAM/git-workshop
+
+2. Click on the "Clone or download" button and copy the HTTPS URL in the text box.
+
+![alt text][github-download]
+
+---
+
+# Git Activity
+### Clone Repository
+
+3. Open your terminal or (or Git Bash if you're on Windows) and navigate to a folder you want to download our repository
+    * ```cd path/to/directory```
+
+4. Run ```git clone  https://github.com/CarletonSLAM/git-workshop``` on your terminal.
+
+5. Run ```cd git-workshop``` and ```git checkout -b YOUR_NAME ``` commands one after the other with YOUR_NAME replaced by your own name.
+
+---
+
+# Git Activity
+### Modify file
+
+6. Naviagte to the docs folder and open index.html in a text editor.
+
+7. Add your own name and program in a h3 tag in the middle of the body tag i.e. ```<h3>Jacky - Software Engineering </h3>```
+
+8. Save the file.
+
+---
+
+# Git Activity
+## Commit
+
+---
+
+# Git Activity
+## Push
+
+---
+
+# Git Activity
+## Pull Request
+
+---
+[git-site]:  ./.github/git-site.png "Git Source Control Management Website"
+[git-install]:  ./.github/git-install.png "Install Default Components"
+[github-singup]:./.github/github-signup.png "GitHub Sign Up"
+[github-download]:./.github/github-download.png "GitHub Repository Download"
