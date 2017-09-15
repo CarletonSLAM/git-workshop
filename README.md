@@ -33,7 +33,7 @@ Version control systems allow groups of people to edit the same files and have a
 ---
 
 # How Git Works
-![git_diagram](https://github.com/CarletonSLAM/git-workshop/blob/master/.github/git_diagram.png)
+![git_diagram](https://raw.github.com/CarletonSLAM/git-workshop/master/.github/git_diagram.png)
 
 ---
 
