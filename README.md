@@ -37,28 +37,31 @@ Version control systems allow groups of people to edit the same files and have a
 
 ---
 
-# How to use Git
-1. Download the project from your online codebase
+# How Git Works cont
+* Download the project from your online codebase
 
     **Git terms: Clone the repository**
 
-1. You now have your own copy of the project
+* You now have your own copy of the project
 
     **Git terms: You now have a working directory**
 
-1. After editing your file
+* After editing your file
 
     **Git terms: You have unstaged changes**
 
-1. Tell git which files you changed
+* Tell git which files you changed
 
     **Git terms: Stage your changes to your local repository**
 
-1. Upload your changes to your online codebase
+* Upload your changes to your online codebase
 
     **Git terms: Push your changes to your remote repository**
 
-1. When someone else uploads changes you can download them
+* When someone else uploads changes you can grab them
 
     **Git terms: Pull the changes**
 
+# Recap
+
+![recap](https://raw.github.com/CarletonSLAM/git-workshop/master/.github/recap_git_diagram.png)
