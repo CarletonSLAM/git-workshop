@@ -2,7 +2,7 @@
 
 ---
 
-#Agenda
+# Agenda
 
 1. [Why use Git](#why-use-git)
 1. [What is Git](#what-is-git)
@@ -21,7 +21,7 @@ Everyone needs to make changes to files
 To avoid disaster, we need a way of:
 - Tracking the version of the files
 - Distribute the files to each member
-- Using changes from other peoples
+- Using changes from other people
 
 ---
 
@@ -72,7 +72,7 @@ Version control systems allow groups of people to edit the same files and have a
 
 # Recap
 
-![recap](https://raw.github.com/CarletonSLAM/git-workshop/master/.github/recap_git_diagram.png)
+![recap](https://raw.github.com/CarletonSLAM/git-workshop/master/.github/recap_git_diagram_cut.png)
 
 ---
 
@@ -86,7 +86,10 @@ Version control systems allow groups of people to edit the same files and have a
 # Installing Git
 
 3. Install the software.
-    * If you are on Windows or Mac, run the downloaded installer with default options.
+    * If you are on macOS install [brew](https://brew.sh/)
+      * then `brew install git`
+
+    * If you are on Windows run the downloaded installer with default options.
 
     ![alt text][git-install]
 
@@ -172,8 +175,12 @@ Adding your own contributions to our workshop webpage
 # Git Activity
 ## Pull Request
 
+# Recap
+
+![recap](https://raw.github.com/CarletonSLAM/git-workshop/master/.github/recap_git_diagram.png)
+
 ---
-[git-site]:  ./.github/git-site.png "Git Source Control Management Website"
-[git-install]:  ./.github/git-install.png "Install Default Components"
-[github-singup]:./.github/github-signup.png "GitHub Sign Up"
-[github-download]:./.github/github-download.png "GitHub Repository Download"
+[git-site]:  https://raw.github.com/CarletonSLAM/git-workshop/master/.github/git-site.png "Git Source Control Management Website"
+[git-install]:  https://raw.github.com/CarletonSLAM/git-workshop/master/.github/git-install.png "Install Default Components"
+[github-singup]: https://raw.github.com/CarletonSLAM/git-workshop/master/.github/github-signup.png "GitHub Sign Up"
+[github-download]: https://raw.github.com/CarletonSLAM/git-workshop/master/.github/github-download.png "GitHub Repository Download"
