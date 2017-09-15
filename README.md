@@ -87,15 +87,18 @@ Version control systems allow groups of people to edit the same files and have a
 # Installing Git
 
 3. Install the software.
-    * If you are on macOS install [brew](https://brew.sh/)
-      * then `brew install git`
+    * macOS 
+      1. Install [brew](https://brew.sh/)
+      1. `brew install git`
 
-    * If you are on Windows run the downloaded installer with default options.
+    * Windows
 
-    ![alt text](https://raw.github.com/CarletonSLAM/git-workshop/master/.github/git-install.png)
+        ![alt text](https://raw.github.com/CarletonSLAM/git-workshop/master/.github/git-install.png)
 
-    * If you are running Linux, you can install git by entering in the commands on the page in the terminal i.e. for Debian/Ubuntu:
-    ```apt-get install git```    
+    * Linux Debain based
+    ```
+    apt-get install git
+    ```    
 
 ---
 
