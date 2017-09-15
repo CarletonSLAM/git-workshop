@@ -62,6 +62,7 @@ Version control systems allow groups of people to edit the same files and have a
 
     **Git terms: Pull the changes**
 
+--- 
 # Recap
 
 ![recap](https://raw.github.com/CarletonSLAM/git-workshop/master/.github/recap_git_diagram.png)
