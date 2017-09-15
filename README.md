@@ -79,7 +79,8 @@ Version control systems allow groups of people to edit the same files and have a
 # Installing Git
 
 1. Visit https://git-scm.com/downloads and select the proper installation link based on your operating system (Windows, Mac Os, Linux)
-![alt text][git-site]
+
+![alt text](https://raw.github.com/CarletonSLAM/git-workshop/master/.github/git-site.png)
 
 ---
 
@@ -91,7 +92,7 @@ Version control systems allow groups of people to edit the same files and have a
 
     * If you are on Windows run the downloaded installer with default options.
 
-    ![alt text][git-install]
+    ![alt text](https://raw.github.com/CarletonSLAM/git-workshop/master/.github/git-install.png)
 
     * If you are running Linux, you can install git by entering in the commands on the page in the terminal i.e. for Debian/Ubuntu:
     ```apt-get install git```    
@@ -116,7 +117,7 @@ Version control systems allow groups of people to edit the same files and have a
 
 1. Visit https://github.com/ and click on the "Sign up for Github" Button.
 
-![alt text][github-singup]
+![alt text](https://raw.github.com/CarletonSLAM/git-workshop/master/.github/github-signup.png)
 
 2. Tell us the email you signed up as so that we can add you to the repository where we have an activity.
 
@@ -135,7 +136,7 @@ Adding your own contributions to our workshop webpage
 
 2. Click on the "Clone or download" button and copy the HTTPS URL in the text box.
 
-![alt text][github-download]
+![alt text](https://raw.github.com/CarletonSLAM/git-workshop/master/.github/github-download.png)
 
 ---
 
@@ -179,8 +180,3 @@ Adding your own contributions to our workshop webpage
 
 ![recap](https://raw.github.com/CarletonSLAM/git-workshop/master/.github/recap_git_diagram.png)
 
----
-[git-site]:  https://raw.github.com/CarletonSLAM/git-workshop/master/.github/git-site.png "Git Source Control Management Website"
-[git-install]:  https://raw.github.com/CarletonSLAM/git-workshop/master/.github/git-install.png "Install Default Components"
-[github-singup]: https://raw.github.com/CarletonSLAM/git-workshop/master/.github/github-signup.png "GitHub Sign Up"
-[github-download]: https://raw.github.com/CarletonSLAM/git-workshop/master/.github/github-download.png "GitHub Repository Download"
