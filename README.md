@@ -3,6 +3,7 @@
 1. [Why use Git](#why-use-git)
 1. [What is Git](#what-is-git)
 1. [How does Git Work](#how-git-works)
+1. [Recap](#recap)
 
 ---
 
@@ -63,6 +64,7 @@ Version control systems allow groups of people to edit the same files and have a
     **Git terms: Pull the changes**
 
 --- 
+
 # Recap
 
 ![recap](https://raw.github.com/CarletonSLAM/git-workshop/master/.github/recap_git_diagram.png)
