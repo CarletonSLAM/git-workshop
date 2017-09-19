@@ -19,7 +19,7 @@ Imagine yourself as a software developer in company.
 You're working in a team of 5 people.
 Everyone needs to make changes to files
 
-To avoid disaster, we need a way of:
+To collaborate, we need a way of:
 - Tracking the version of the files
 - Distribute the files to each member
 - Using changes from other people
@@ -120,7 +120,7 @@ git
 
 # Creating an account on Github
 
-1. Visit https://github.com/ and click on the "Sign up for Github" Button.
+- Visit https://github.com/ and click on the "Sign up for Github" Button.
 
 ![alt text](https://raw.github.com/CarletonSLAM/git-workshop/master/.github/github-signup.png)
 
@@ -135,8 +135,8 @@ Adding your own contributions to our workshop webpage
 # Git Activity
 ### View Repository
 
-1. Visit https://github.com/CarletonSLAM/git-workshop
-1. Click on the "Clone or download" button and copy the HTTPS URL in the text box.
+- Visit https://github.com/CarletonSLAM/git-workshop
+- Click on the "Clone or download" button and copy the HTTPS URL in the text box.
 
 ![alt text](https://raw.github.com/CarletonSLAM/git-workshop/master/.github/github-download.png)
 
@@ -145,23 +145,28 @@ Adding your own contributions to our workshop webpage
 # Git Activity
 ### Clone Repository
 
-3. Open your terminal or (or Git Bash if you're on Windows) and navigate to a folder you want to clone to
+- Open your terminal or (or Git Bash if you're on Windows) and navigate to a folder you want to clone to
+
 
     cd path/to/directory
 
-4. Clone the repository
+- Clone the repository
+
 
     git clone  https://github.com/CarletonSLAM/git-workshop
 
-5. Navigate to you the repoository
+- Navigate to you the repoository
+
 
     cd git-workshop
 
-6. Create your own branch
+- Create your own branch
+
 
     git branch YOUR_BRANCH_NAME 
 
-7. Checkout to your branch
+- Checkout to your branch
+
 
     git checkout YOUR_BRANCH_NAME
 
@@ -170,13 +175,14 @@ Adding your own contributions to our workshop webpage
 # Git Activity
 ### Modify file
 
-8. Navigate to the docs folder and open index.html in a text editor.
+- Navigate to the docs folder and open index.html in a text editor.
 
-9. Add your own name and program in a h3 tag in the middle of the body tag i.e. 
+- Add your own name and program in a h3 tag in the middle of the body tag i.e. 
+```
+<h3>Jacky - Software Engineering </h3>
+```
 
-    <h3>Jacky - Software Engineering </h3>
-
-10. Save the file.
+- Save the file.
 
 ---
 
