@@ -9,6 +9,7 @@
 1. [How does Git Work](#how-git-works)
 1. [Recap](#recap)
 1. [Installing Git](#installing-git)
+1. [Git Activity](#git-activity)
 
 ---
 
@@ -77,42 +78,43 @@ Version control systems allow groups of people to edit the same files and have a
 ---
 
 # Installing Git
+- macOS 
+  ```bash
+  # install brew
+  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  # install git
+  brew install git
+  ```
 
-1. Visit https://git-scm.com/downloads and select the proper installation link based on your operating system (Windows, Mac Os, Linux)
-
-![alt text](https://raw.github.com/CarletonSLAM/git-workshop/master/.github/git-site.png)
-
----
-
-# Installing Git
-
-3. Install the software.
-    * macOS 
-      1. Install [brew](https://brew.sh/)
-      1. `brew install git`
-
-    * Windows
-
-        ![alt text](https://raw.github.com/CarletonSLAM/git-workshop/master/.github/git-install.png)
-
-    * Linux Debain based
-    ```
-    apt-get install git
-    ```    
+- Linux (Debian based)
+```bash
+apt-get install git
+```    
 
 ---
 
 # Installing Git
 
-4. Once the installation is complete, you can check that git installed by running ```git --version``` on your terminal
+- Windows
 
-    * On Windows, the Git Bash terminal is also installed with git so you can use this to run most of your commands from now on.
+  1. Visit https://git-scm.com/downloads 
 
-    * The result should look similar to the one below.
-    ```
-    $ git --version
-    git version 2.12.0.windows.1
-    ```
+  ![alt text](https://raw.github.com/CarletonSLAM/git-workshop/master/.github/git-site.png)
+
+  1. Install the software
+
+  ![alt text](https://raw.github.com/CarletonSLAM/git-workshop/master/.github/git-install.png)
+
+---
+
+# Installing Git
+
+- Open the terminal (macOS, Linux) or git bash application (Windows)
+```bash
+# Check if git is installed
+git
+```
+- Should see a list of possible commands
 
 ---
 
@@ -122,11 +124,9 @@ Version control systems allow groups of people to edit the same files and have a
 
 ![alt text](https://raw.github.com/CarletonSLAM/git-workshop/master/.github/github-signup.png)
 
-2. Tell us the email you signed up as so that we can add you to the repository where we have an activity.
-
 ---
 
-#Git Activity
+# Git Activity
 
 Adding your own contributions to our workshop webpage
 
@@ -136,8 +136,7 @@ Adding your own contributions to our workshop webpage
 ### View Repository
 
 1. Visit https://github.com/CarletonSLAM/git-workshop
-
-2. Click on the "Clone or download" button and copy the HTTPS URL in the text box.
+1. Click on the "Clone or download" button and copy the HTTPS URL in the text box.
 
 ![alt text](https://raw.github.com/CarletonSLAM/git-workshop/master/.github/github-download.png)
 
@@ -146,38 +145,69 @@ Adding your own contributions to our workshop webpage
 # Git Activity
 ### Clone Repository
 
-3. Open your terminal or (or Git Bash if you're on Windows) and navigate to a folder you want to download our repository
-    * ```cd path/to/directory```
+3. Open your terminal or (or Git Bash if you're on Windows) and navigate to a folder you want to clone to
 
-4. Run ```git clone  https://github.com/CarletonSLAM/git-workshop``` on your terminal.
+    cd path/to/directory
 
-5. Run ```cd git-workshop``` and ```git checkout -b YOUR_NAME ``` commands one after the other with YOUR_NAME replaced by your own name.
+4. Clone the repository
+
+    git clone  https://github.com/CarletonSLAM/git-workshop
+
+5. Navigate to you the repoository
+
+    cd git-workshop
+
+6. Create your own branch
+
+    git branch YOUR_BRANCH_NAME 
+
+7. Checkout to your branch
+
+    git checkout YOUR_BRANCH_NAME
 
 ---
 
 # Git Activity
 ### Modify file
 
-6. Naviagte to the docs folder and open index.html in a text editor.
+8. Navigate to the docs folder and open index.html in a text editor.
 
-7. Add your own name and program in a h3 tag in the middle of the body tag i.e. ```<h3>Jacky - Software Engineering </h3>```
+9. Add your own name and program in a h3 tag in the middle of the body tag i.e. 
 
-8. Save the file.
+    <h3>Jacky - Software Engineering </h3>
+
+10. Save the file.
 
 ---
 
 # Git Activity
-## Commit
+## Add and Commit
+
+We now want to stage our changes and commit them.
+
+    git add index.html
+    git commit -m "Description of your changes"
 
 ---
 
 # Git Activity
 ## Push
+```bash
+# Check the status
+git status
+
+# Push to your branch if everything looks good
+git push origin YOUR_BRANCH_NAME
+```
 
 ---
 
 # Git Activity
 ## Pull Request
+
+Go to the repository website and you'll be prompted to make a pull request
+
+---
 
 # Recap
 
